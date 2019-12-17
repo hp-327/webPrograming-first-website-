@@ -1,0 +1,157 @@
+.container{
+
+  display: grid;
+  width:auto;
+  height: auto;
+
+  grid-gap:
+  grid-template-columns: 20%, 60%, 20%;
+  grid-template-rows: 40%,40%,20%;
+  grid-template-areas:
+    "header header header"
+    "Add main nav"
+    "footer footer footer";
+
+  padding:inherit;
+}
+body
+{
+  background-color: rgb(28, 166, 230);
+}
+header
+{
+
+    display: block;
+    align-items: center;
+    border-width: 20px;
+
+    grid-area: header;
+
+    padding: 5px;
+    background-color: purple;
+    font-size: 20px;
+    text-align: center;
+
+    img
+    {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+}
+
+#Add
+{
+  display: block;
+  align-items: center;
+  border-width: 10px;
+
+  grid-area: Add;
+
+  padding: 5px;
+  background-color: pink;
+  font-size: 14px;
+  text-align: center;
+}
+
+main
+{
+    display: block;
+    align-items: center;
+    border-width: 10px;
+
+    grid-area: main;
+
+    padding: 5px;
+    background-color: green;
+    font-size: 14px;
+    text-align: center;
+}
+
+nav
+{
+    display: block;
+    align-items: center;
+    border-width: 10px;
+
+    grid-area: nav;
+
+    padding: 5px;
+    background-color: yellow;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer
+{
+  display: block;
+  align-items: center;
+  border-width: 10px;
+
+  grid-area: footer;
+
+  padding: 5px;
+  background-color: dimgray;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//*
+
+<head>
+
+<style>
+body{background-color: blue}
+h1{color: crimson}
+
+p{
+  font-size: 120%;
+  color: dimgray;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+}
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: plum;
+  color: PaleVioletRed;
+  text-align: center;
+}
+
+.header
+{
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: RebeccaPurple;
+  font-size: 20px;
+}
+
+</style>
+
+
+
+
+</head>
+*//
